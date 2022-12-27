@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+nav{
+    width: 100%;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 25px;
+
+}
+
+.primary-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+
+}
+
+.secondry-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 30%;
+}
+.image-section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.surface-section{
+    height: 70vh;
+    width: 100%;
+    padding: 150px;
+    background-image: url(./image/01page.jpeg);
+    background-size: cover;
+}
+
+.surface-text-section{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .new-btn{
+    height: 30px;
+    width: 60px;
+    background-color:white;
+    color: brown;
+    border: none;
+} */
+
+.learn-btn{
+    background-color: black;
+    color: white;
+    width:100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.four-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.div-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+
+.div-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+.div-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+.div-4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+
+}
+
+.coloum{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    padding: 10px;
+}
+.card-section img{
+    height: 180px;
+
+}
+
+.large-image-section{
+    background-image: url(./image/gldn-MSFT-hero-Edge_VP5-1596x600.avif);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  margin: 50px;
+  padding: 150px 65px;
+}
+.container{
+height: 320px;
+width: 350px;
+background-color: white;
+padding: 60px;
+}
+
+.business-section{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.business-coloum{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    padding: 10px;
+
+}
+
+.business-section img{
+    height: 180px;
+}
+.business-section h1{
+    font-size: 1.8rem;
+    margin: 30px;
+}
+.business-section p{
+    color: #422c18;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.business-section a{
+color: #ad4517;
+font-size: 18px;
+font-weight: 500;
+
+
+}
+.main-footer{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.51);
+    
+}
+.footer ul{
+    list-style: none;
+
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-head ul{
+    list-style: none;
+    display: flex;
+}
+.footer-head li{
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 13px;
+}
+.footer-head p{
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 13px;
+}
